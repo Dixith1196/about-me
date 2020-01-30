@@ -29,3 +29,10 @@ Languages we used to publish this page:
 1. [udemy](https://www.udemy.com/)
 2. [coursera](https://www.coursera.org/)
 3. [css-tricks](https://css-tricks.com/)
+
+## Contributors
+
+ * Name - Deekshith Maram
+ * Course - Masters in Applied Computer science
+
+ ![React](https://reactjs.org/logo-og.png)
