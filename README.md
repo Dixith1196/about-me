@@ -3,7 +3,7 @@
 ## Repository Links
 
 * [Repo](https://github.com/Dixith1196/about-me)
-* [Page]()
+* [Page](https://dixith1196.github.io/about-me/)
 
 ## About
 
