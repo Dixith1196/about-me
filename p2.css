@@ -1,0 +1,137 @@
+::placeholder{
+    padding-left: 16px;
+}
+
+li{
+    list-style: none outside none;
+}
+
+.titleContainer{
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+}
+
+.profilePic{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.title{
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    display: flex;
+    align-self: center;
+    margin-left: 16px;
+}
+
+
+
+.header{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navContainer{
+    display: flex;
+    width: 50%;
+    background: whitek;
+    background: transparent;
+    flex-direction: row;
+ 
+}
+dl, ol, ul {
+    /* margin-top: 0; */
+    /* margin-bottom: 1rem; */
+}
+
+.navBar{
+    width: 100%;
+    height: 100% !important;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navContentContainer{
+    display: flex;
+    margin-top: 20px;
+    background-color: transparent;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.article1Img{
+    width: 30% !important;
+}
+
+.rowContainer{
+    display: flex;
+    margin: 5%;
+    flex-direction: column;
+}
+
+.articleRowContainer{
+    display: flex;
+    margin: 5%;
+    flex-direction: row;
+}
+
+.articleContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+}
+
+.articleDescContainer{
+    display: flex;
+    width: 60%;
+    margin: 24px;
+}
+
+.calcContainer{
+    display: flex;
+    margin: 5%;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background: red;
+    height: 60vh;
+    align-items: center;
+}
+
+.contactForm{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#input{
+    margin: 24px;
+    width: 60%;
+    align-self: center;;
+}
+
+#label{
+    font-size: 18px;
+    text-align: center;
+    align-self: center;
+}
+
+#button{
+    margin: 24px;
+    border-radius: 5%;
+    height: 36px;
+    width: 20%;
+    align-self: center;
+}
+
+}
