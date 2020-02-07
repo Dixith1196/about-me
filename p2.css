@@ -2,6 +2,10 @@
     padding-left: 16px;
 }
 
+h3 {
+    color: #BDBDBD;
+}
+
 li{
     list-style: none outside none;
 }
@@ -13,13 +17,17 @@ li{
 }
 
 .profilePic{
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 70px;
     border-radius: 50%;
 }
 
+.nameLbl{
+    color: #424242;
+}
+
 .title{
-    font-size: 24px;
+    font-size: 18px;
     color: black;
     text-align: center;
     display: flex;
@@ -27,13 +35,16 @@ li{
     margin-left: 16px;
 }
 
-
+.titleLbl{
+    color: #BDBDBD;
+    font-size: 12px;
+}
 
 .header{
     display: flex;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 5%;
+    margin-top: 3%;
     flex-direction: row;
     justify-content: space-between;
 }
@@ -61,7 +72,6 @@ dl, ol, ul {
 
 .navContentContainer{
     display: flex;
-    margin-top: 20px;
     background-color: transparent;
     align-items: center;
     width: 100%;
@@ -102,7 +112,6 @@ dl, ol, ul {
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    background: red;
     height: 60vh;
     align-items: center;
 }
