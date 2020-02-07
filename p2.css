@@ -88,7 +88,6 @@ dl, ol, ul {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  
 }
 
 .articleDescContainer{
@@ -134,4 +133,29 @@ dl, ol, ul {
     align-self: center;
 }
 
+.icon{
+    height: 50px;
+    object-fit: contain ;
+    margin-bottom: 8px;
+}
+
+.iconContainer{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.iconSection{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contactContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
 }
