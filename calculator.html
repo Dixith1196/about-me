@@ -3,34 +3,42 @@
     <head>
       <title>Home</title>
       <link rel="stylesheet" href="p2.css">
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
       <style>
           .container{
               padding: 20%;
           }
       </style>
     </head>
-    <body>
+    <body class="body">
        <header class="header">
            <div class="titleContainer">
            <img src="img/profilePic.JPG" class="profilePic"  />
-           <title class="title">Calculator</title>
+           <div class="d-flex flex-column pt-2">
+            <title class="title">Deekshith Maram</title>
+            <label class="ml-4 titleLbl">iOS, React <br>Developer</label>
+          </div>
            </div>
            <div class="navContainer">
                <nav class="navBar">
                 <ul class="navContentContainer">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="contact.html">Contact me</a></li>
-                    <li><a href="calculator.html">Calculator</a></li>
+                    <li><a class="list" href="index.html">Home</a></li>
+                    <li><a class="list" href="contact.html">Contact me</a></li>
+                    <li><a class="list active" href="calculator.html">Calculator</a></li>
                   </ul>
                </nav>
            </div>
        </header>
        <div class="calcContainer">
-           <label id="label">Check number of charecters in a string</label>
-          <form>
-            <input placeholder="Enter your word" />
-            <button>Submit</button>
+           <h4 id="label">Check number of charecters in a string</h4>
+          <form class="contactForm">
+            <input class="mt-4 calcInput" placeholder="Enter your word" />
+            <button id="button" type="submit">Submit</button>
           </form>
        </div>
     </body>
