@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="./fetch_joke.js" type="text/javascript"></script>
   <style>
     .container {
       padding: 20%;
@@ -32,6 +33,7 @@
           <li><a  class="list active" href="index.html">Home</a></li>
           <li><a class="list" href="contact.html">Contact me</a></li>
           <li><a class="list" href="calculator.html">Calculator</a></li>
+          <li><a class="list" href="qunit.html">Qtest</a></li>
         </ul>
       </nav>
     </div>
@@ -123,6 +125,8 @@
 
   <div class="selfImgContainer">
     <img class="selfImg" src="img/nw.JPG" />
+    <button onclick="getJoke()">Fetch Joke</button>
+    <label id="jokeLbl"></label>
   </div>
 
 </body>

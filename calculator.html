@@ -9,6 +9,7 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <script src="index.js"></script>
       <style>
           .container{
               padding: 20%;
@@ -30,15 +31,17 @@
                     <li><a class="list" href="index.html">Home</a></li>
                     <li><a class="list" href="contact.html">Contact me</a></li>
                     <li><a class="list active" href="calculator.html">Calculator</a></li>
+                    <li><a class="list" href="calculator.html">Qtest</a></li>
                   </ul>
                </nav>
            </div>
        </header>
        <div class="calcContainer">
-           <h4 id="label">Check number of charecters in a string</h4>
+           <h4 id="label">Convert temperature from celcius to fahrenheit</h4>
           <form class="contactForm">
-            <input class="mt-4 calcInput" placeholder="Enter your word" />
-            <button id="button" type="submit">Submit</button>
+            <input id="tempInput" class="mt-4 calcInput" placeholder="Enter the temperature in celcius" />
+            <label id="outputCelsius" class="text-center"></label>
+            <button id="button" onclick="temperatureConverter()">Submit</button>
           </form>
        </div>
     </body>

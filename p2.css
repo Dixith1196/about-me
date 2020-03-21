@@ -179,7 +179,7 @@ dl, ol, ul {
     flex-direction: column;
 }
 
-#input{
+#input #emailInput #subjectInput #descInput{
     margin: 24px;
     width: 60%;
     align-self: center;
